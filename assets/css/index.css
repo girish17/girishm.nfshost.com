@@ -2,3 +2,7 @@ body, a{
    background-color: black;
    color: white;
 }
+
+#jamiQR {
+   float: right;
+}
