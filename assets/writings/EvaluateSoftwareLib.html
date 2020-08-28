@@ -1,79 +1,156 @@
-<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>How to evaluate a software library?</title><style>
-      * {
-        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-      }
-      html, body {
-        margin: 0;
-        padding: 0;
-      }
-      h1 {
-        font-size: 50px;
-        margin-bottom: 17px;
-        color: #333;
-      }
-      h2 {
-        font-size: 24px;
-        line-height: 1.6;
-        margin: 30px 0 0 0;
-        margin-bottom: 18px;
-        margin-top: 33px;
-        color: #333;
-      }
-      h3 {
-        font-size: 30px;
-        margin: 10px 0 20px 0;
-        color: #333;
-      }
-      header {
-        width: 640px;
-        margin: auto;
-      }
-      section {
-        width: 640px;
-        margin: auto;
-      }
-      section p {
-        margin-bottom: 27px;
-        font-size: 20px;
-        line-height: 1.6;
-        color: #333;
-      }
-      section img {
-        max-width: 640px;
-      }
-      footer {
-        padding: 0 20px;
-        margin: 50px 0;
-        text-align: center;
-        font-size: 12px;
-      }
-      .aspectRatioPlaceholder {
-        max-width: auto !important;
-        max-height: auto !important;
-      }
-      .aspectRatioPlaceholder-fill {
-        padding-bottom: 0 !important;
-      }
-      header,
-      section[data-field=subtitle],
-      section[data-field=description] {
-        display: none;
-      }
-      </style></head><body><article class="h-entry">
-<header>
-<h1 class="p-name">How to evaluate a software library?</h1>
-</header>
-<section data-field="subtitle" class="p-summary">
-Very often we depend on a lot of software libraries for development and testing our custom software. Here are few things to keep in mind…
-</section>
-<section data-field="body" class="e-content">
-<section name="7637" class="section section--body section--first section--last"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><h3 name="4c93" id="4c93" class="graf graf--h3 graf--leading graf--title">How to evaluate a software library?</h3><p name="aa43" id="aa43" class="graf graf--p graf-after--h3">Very often we depend on a lot of software libraries for development and testing our custom software. Here are few things to keep in mind in doing so -</p><ol class="postList"><li name="51c0" id="51c0" class="graf graf--li graf-after--p">We should go through the <em class="markup--em markup--li-em">README.md</em> file (if it exists, most of them <em class="markup--em markup--li-em">do), </em>releases and tags to identify how frequently the changes are made and the kind of bug fixes turned in</li><li name="cda0" id="cda0" class="graf graf--li graf-after--li">Download the source and build it. This gives us an idea whether the current version available is well maintained or not. Ideally, cloning from the repository (instead of downloading as a release in the form of tar or zip) and building it on a local machine should help us in estimation of time involved. This also allows us to understand the settings and configurations needed and whether the repository is well documented or not</li><li name="502f" id="502f" class="graf graf--li graf-after--li">Then, we should try out an example if it is mentioned in the repository or some found online. This should get us started. Most of the times we would end up cloning the repository and sifting across different folders to figure out if there were a way to execute it (happens most of the times in my case!)</li><li name="3bd5" id="3bd5" class="graf graf--li graf-after--li">Then we must try to tweak the sample application to do some extra functions. For example — If we happen to evaluate say a graph plotting library then we can try changing the code to add an additional data point or an axes (too naive but useful!). We should try to extend the existing library by adding a small enhancement say like adding a color template/theme. A line graph could just be plotting the curve, we can maybe try to display the coordinates inline. The makes us feel more comfortable with the library. We also get an idea of how reusable it is and adding small features does actually make it look prettier</li><li name="1551" id="1551" class="graf graf--li graf-after--li">Having done all these, now we can start some sort of a rating (to rate or not to rate is too irate!). We can rate on following aspects — a. ease of configuration for example — can I just double click on the executable and viola it’s up and running or even better no configuration required (it chooses for me — the <em class="markup--em markup--li-em">default) </em>b. resource usage — in terms of memory, CPU, network c. support — check those IRC channels, chats and comments in the community</li></ol><figure name="cc2a" id="cc2a" class="graf graf--figure graf-after--li graf--trailing"><div class="aspectRatioPlaceholder is-locked" style="max-width: 500px; max-height: 354px;"><div class="aspectRatioPlaceholder-fill" style="padding-bottom: 70.8%;"></div><img class="graf-image" data-image-id="1*7Flhb6XER8iQwfYzlEp67g.jpeg" data-width="500" data-height="354" data-is-featured="true" src="https://cdn-images-1.medium.com/max/800/1*7Flhb6XER8iQwfYzlEp67g.jpeg"></div><figcaption class="imageCaption">General evaluation tools</figcaption></figure></div></div></section>
-</section>
-<footer><p>Copyright (C) 2020, Girish M <a rel="license" 
-href="http://creativecommons.org/licenses/by/4.0/"><img 
-alt="Creative Commons License" style="border-width:0" 
-src="https://i.creativecommons.org/l/by/4.0/88x31.png" 
-/></a><br />This work is licensed under a <a 
-rel="license" 
-href="http://creativecommons.org/licenses/by/4.0/">Creative Commons 
-Attribution 4.0 International License</a>. The source for this web-page can be found <a href="https://notabug.org/girishm/girish17.github.io/src/master/assets/writings/EvaluateSoftwareLib.html">here</a></p></footer></article></body></html>
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>How to evaluate a software library?</title>
+  <style>
+    * {
+      font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    }
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      font-size: 50px;
+      margin-bottom: 17px;
+      color: #333;
+    }
+
+    h2 {
+      font-size: 24px;
+      line-height: 1.6;
+      margin: 30px 0 0 0;
+      margin-bottom: 18px;
+      margin-top: 33px;
+      color: #333;
+    }
+
+    h3 {
+      font-size: 30px;
+      margin: 10px 0 20px 0;
+      color: #333;
+    }
+
+    header {
+      width: 640px;
+      margin: auto;
+    }
+
+    section {
+      width: 640px;
+      margin: auto;
+    }
+
+    section p {
+      margin-bottom: 27px;
+      font-size: 20px;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    section img {
+      max-width: 640px;
+    }
+
+    footer {
+      padding: 0 20px;
+      margin: 50px 0;
+      text-align: center;
+      font-size: 12px;
+    }
+
+    .aspectRatioPlaceholder {
+      max-width: auto !important;
+      max-height: auto !important;
+    }
+
+    .aspectRatioPlaceholder-fill {
+      padding-bottom: 0 !important;
+    }
+
+    header,
+    section[data-field=subtitle],
+    section[data-field=description] {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <article class="h-entry">
+    <header>
+      <h1 class="p-name">How to evaluate a software library?</h1>
+    </header>
+    <section data-field="subtitle" class="p-summary">
+      Very often we depend on a lot of software libraries for development and testing our custom software. Here are few
+      things to keep in mind…
+    </section>
+    <section data-field="body" class="e-content">
+      <section name="7637" class="section section--body section--first section--last">
+        <div class="section-divider">
+          <hr class="section-divider">
+        </div>
+        <div class="section-content">
+          <div class="section-inner sectionLayout--insetColumn">
+            <h3 name="4c93" id="4c93" class="graf graf--h3 graf--leading graf--title">How to evaluate a
+              software library?</h3>
+            <p name="aa43" id="aa43" class="graf graf--p graf-after--h3">Very often we depend on a lot of software
+              libraries for development and testing our custom software. Here are few things to keep in mind in doing so
+              -</p>
+            <ol class="postList">
+              <li name="51c0" id="51c0" class="graf graf--li graf-after--p">We should go through the <em
+                  class="markup--em markup--li-em">README.md</em> file (if it exists, most of them <em
+                  class="markup--em markup--li-em">do), </em>releases and tags to identify how frequently the changes
+                are made and the kind of bug fixes turned in</li>
+              <li name="cda0" id="cda0" class="graf graf--li graf-after--li">Download the source and build it. This
+                gives us an idea whether the current version available is well maintained or not. Ideally, cloning from
+                the repository (instead of downloading as a release in the form of tar or zip) and building it on a
+                local machine should help us in estimation of time involved. This also allows us to understand the
+                settings and configurations needed and whether the repository is well documented or not</li>
+              <li name="502f" id="502f" class="graf graf--li graf-after--li">Then, we should try out an example if it is
+                mentioned in the repository or some found online. This should get us started. Most of the times we would
+                end up cloning the repository and sifting across different folders to figure out if there were a way to
+                execute it (happens most of the times in my case!)</li>
+              <li name="3bd5" id="3bd5" class="graf graf--li graf-after--li">Then we must try to tweak the sample
+                application to do some extra functions. For example — If we happen to evaluate say a graph plotting
+                library then we can try changing the code to add an additional data point or an axes (too naive but
+                useful!). We should try to extend the existing library by adding a small enhancement say like adding a
+                color template/theme. A line graph could just be plotting the curve, we can maybe try to display the
+                coordinates inline. The makes us feel more comfortable with the library. We also get an idea of how
+                reusable it is and adding small features does actually make it look prettier</li>
+              <li name="1551" id="1551" class="graf graf--li graf-after--li">Having done all these, now we can start
+                some sort of a rating (to rate or not to rate is too irate!). We can rate on following aspects — a. ease
+                of configuration for example — can I just double click on the executable and viola it’s up and running
+                or even better no configuration required (it chooses for me — the <em
+                  class="markup--em markup--li-em">default) </em>b. resource usage — in terms of memory, CPU, network c.
+                support — check those IRC channels, chats and comments in the community</li>
+            </ol>
+            <figure name="cc2a" id="cc2a" class="graf graf--figure graf-after--li graf--trailing">
+              <div class="aspectRatioPlaceholder is-locked" style="max-width: 500px; max-height: 354px;">
+                <div class="aspectRatioPlaceholder-fill" style="padding-bottom: 70.8%;"></div><img class="graf-image"
+                  data-image-id="1*7Flhb6XER8iQwfYzlEp67g.jpeg" data-width="500" data-height="354"
+                  data-is-featured="true" src="../img/pst_evaluation.jpg">
+              </div>
+              <figcaption class="imageCaption">General evaluation tools</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+    </section>
+    <footer>
+      <p>Copyright (C) 2020, Girish M <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img
+            alt="Creative Commons License" style="border-width:0" src="../img/cc.png" /></a><br />This work is licensed
+        under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons
+          Attribution 4.0 International License</a>. The source for this web-page can be found <a
+          href="https://notabug.org/girishm/girishm.nfshost.com/src/master/assets/writings/EvaluateSoftwareLib.html">here</a>
+      </p>
+    </footer>
+  </article>
+</body>
+
+</html>
