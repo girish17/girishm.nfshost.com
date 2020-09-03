@@ -19,6 +19,9 @@ body, a{
    background-color: black;
    color: white;
 }
+a:visited{
+   color: darkgreen;
+}
 
 #jamiQR {
    float: right;
