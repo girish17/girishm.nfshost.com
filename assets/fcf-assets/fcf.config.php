@@ -32,9 +32,9 @@ $validate = array(
 // FORM FIELD MAPPING
 // ******************
 $mapping = array(
-   "Name" => "Your name",
-   "Email" => "Your email address",
-   "Message" => "Your message"
+   "Name" => "Name",
+   "Email" => "Email",
+   "Message" => "Message"
 );
 
 
