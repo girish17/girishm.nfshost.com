@@ -24,15 +24,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5c0a08f-a70d-4ec8-b62e-70689fbae763" name="Default Changelist" comment="link fixes and subscribe.html added">
-      <change beforePath="$PROJECT_DIR$/assets/html/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/html/education.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/education.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/html/photo.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/photo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/html/project.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/project.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/html/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/services.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/html/subscribe.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/subscribe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/html/workExperience.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/workExperience.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/html/writing.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/writing.html" afterDir="false" />
+    <list default="true" id="f5c0a08f-a70d-4ec8-b62e-70689fbae763" name="Default Changelist" comment="workspace.xml file added">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +73,7 @@
       <updated>1603870618838</updated>
       <workItem from="1603870620031" duration="2849000" />
       <workItem from="1604042559731" duration="1886000" />
-      <workItem from="1604125036799" duration="4736000" />
+      <workItem from="1604125036799" duration="5042000" />
     </task>
     <task id="LOCAL-00001" summary="link fixes and subscribe.html added">
       <created>1604129692431</created>
@@ -89,7 +82,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604129692431</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="warnings fixed in html">
+      <created>1604130627969</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604130627969</updated>
+    </task>
+    <task id="LOCAL-00003" summary="workspace.xml file added">
+      <created>1604130667723</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604130667725</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,7 +116,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="link fixes and subscribe.html added" />
-    <option name="LAST_COMMIT_MESSAGE" value="link fixes and subscribe.html added" />
+    <MESSAGE value="warnings fixed in html" />
+    <MESSAGE value="workspace.xml file added" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace.xml file added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="693" y="653" width="526" height="501" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604127502854">
