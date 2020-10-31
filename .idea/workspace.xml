@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:srht" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f5c0a08f-a70d-4ec8-b62e-70689fbae763" name="Default Changelist" comment="link fixes and subscribe.html added">
+      <change beforePath="$PROJECT_DIR$/assets/html/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/html/education.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/education.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/html/photo.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/photo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/html/project.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/project.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/html/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/html/subscribe.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/subscribe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/html/workExperience.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/workExperience.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/html/writing.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/writing.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jUtheUZ5zI2YrFwW1rnWF2pTCq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/img" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f5c0a08f-a70d-4ec8-b62e-70689fbae763" name="Default Changelist" comment="" />
+      <created>1603870618838</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603870618838</updated>
+      <workItem from="1603870620031" duration="2849000" />
+      <workItem from="1604042559731" duration="1886000" />
+      <workItem from="1604125036799" duration="4736000" />
+    </task>
+    <task id="LOCAL-00001" summary="link fixes and subscribe.html added">
+      <created>1604129692431</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604129692431</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="link fixes and subscribe.html added" />
+    <option name="LAST_COMMIT_MESSAGE" value="link fixes and subscribe.html added" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="693" y="653" width="526" height="501" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604127502854">
+      <screen x="0" y="326" width="1920" height="1152" />
+    </state>
+    <state x="693" y="653" width="526" height="501" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.326.1920.1152/1920.0.1200.1920@0.326.1920.1152" timestamp="1604127502854" />
+    <state x="555" y="640" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1604129709457">
+      <screen x="0" y="326" width="1920" height="1152" />
+    </state>
+    <state x="555" y="640" width="802" height="528" key="Vcs.Push.Dialog.v2/0.326.1920.1152/1920.0.1200.1920@0.326.1920.1152" timestamp="1604129709457" />
+  </component>
+</project>
