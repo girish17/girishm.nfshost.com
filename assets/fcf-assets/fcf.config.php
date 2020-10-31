@@ -71,14 +71,14 @@ define('EMAIL_TO_CC_NAME', '');
 define('EMAIL_TO_BCC', '');
 define('EMAIL_TO_BCC_NAME', '');
 
-define('EMAIL_FROM', '');
+define('EMAIL_FROM', 'contact@girishm.info');
 define('EMAIL_FROM_NAME', '');
 
 define('EMAIL_REPLY_TO', 'FIELD:Email');
 define('EMAIL_REPLY_TO_NAME', 'FIELD:Email');
 
 define('EMAIL_SUBJECT_BEFORE', '');
-define('EMAIL_SUBJECT', "New contact form message");
+define('EMAIL_SUBJECT', "Enquiry from girishm.info website");
 define('EMAIL_SUBJECT_AFTER', '');
 
 
