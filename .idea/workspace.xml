@@ -24,19 +24,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5c0a08f-a70d-4ec8-b62e-70689fbae763" name="Default Changelist" comment="update project.html, fixed broken links and added settings file">
-      <change afterPath="$PROJECT_DIR$/assets/img/degree.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/html/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/html/education.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/education.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/html/photo.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/photo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/html/project.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/project.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/html/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/services.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/html/subscribe.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/subscribe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/html/workExperience.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/workExperience.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/html/writing.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/writing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="f5c0a08f-a70d-4ec8-b62e-70689fbae763" name="Default Changelist" comment="added degree certificate, removed contact.html" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,7 +85,7 @@
       <workItem from="1604383826729" duration="1906000" />
       <workItem from="1604474864923" duration="3491000" />
       <workItem from="1604577453390" duration="7000" />
-      <workItem from="1604725703810" duration="1465000" />
+      <workItem from="1604725703810" duration="1798000" />
     </task>
     <task id="LOCAL-00001" summary="link fixes and subscribe.html added">
       <created>1604129692431</created>
@@ -169,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604212007870</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="added degree certificate, removed contact.html">
+      <created>1604727499308</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1604727499308</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,7 +191,8 @@
     <MESSAGE value="grammar fixes" />
     <MESSAGE value="punctuation fixes" />
     <MESSAGE value="update project.html, fixed broken links and added settings file" />
-    <option name="LAST_COMMIT_MESSAGE" value="update project.html, fixed broken links and added settings file" />
+    <MESSAGE value="added degree certificate, removed contact.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="added degree certificate, removed contact.html" />
   </component>
   <component name="WindowStateProjectService">
     <state x="693" y="653" width="526" height="501" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604127502854">
