@@ -24,12 +24,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5c0a08f-a70d-4ec8-b62e-70689fbae763" name="Default Changelist" comment="punctuation fixes">
+    <list default="true" id="f5c0a08f-a70d-4ec8-b62e-70689fbae763" name="Default Changelist" comment="update project.html, fixed broken links and added settings file">
+      <change afterPath="$PROJECT_DIR$/assets/img/degree.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/html/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/html/education.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/education.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/html/photo.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/photo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/html/project.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/project.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/html/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/services.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/html/subscribe.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/subscribe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/html/workExperience.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/workExperience.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/html/writing.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/writing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,9 +67,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -85,7 +92,12 @@
       <workItem from="1604147717785" duration="108000" />
       <workItem from="1604157537323" duration="25000" />
       <workItem from="1604157765397" duration="336000" />
-      <workItem from="1604210534059" duration="1340000" />
+      <workItem from="1604210534059" duration="2252000" />
+      <workItem from="1604302810921" duration="956000" />
+      <workItem from="1604383826729" duration="1906000" />
+      <workItem from="1604474864923" duration="3491000" />
+      <workItem from="1604577453390" duration="7000" />
+      <workItem from="1604725703810" duration="1465000" />
     </task>
     <task id="LOCAL-00001" summary="link fixes and subscribe.html added">
       <created>1604129692431</created>
@@ -150,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604134963404</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update project.html, fixed broken links and added settings file">
+      <created>1604212007870</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1604212007870</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +195,8 @@
     <MESSAGE value="email info updated" />
     <MESSAGE value="grammar fixes" />
     <MESSAGE value="punctuation fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="punctuation fixes" />
+    <MESSAGE value="update project.html, fixed broken links and added settings file" />
+    <option name="LAST_COMMIT_MESSAGE" value="update project.html, fixed broken links and added settings file" />
   </component>
   <component name="WindowStateProjectService">
     <state x="693" y="653" width="526" height="501" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604127502854">
@@ -191,13 +211,19 @@
       <screen x="1920" y="0" width="1200" height="1920" />
     </state>
     <state x="2303" y="720" width="426" height="484" key="FileChooserDialogImpl/0.326.1920.1152/1920.0.1200.1920@1920.0.1200.1920" timestamp="1604142371325" />
-    <state x="555" y="640" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1604134990568">
-      <screen x="0" y="326" width="1920" height="1152" />
+    <state x="2031" y="595" width="977" height="733" key="SettingsEditor" timestamp="1604384650496">
+      <screen x="1920" y="0" width="1200" height="1920" />
     </state>
+    <state x="2031" y="595" width="977" height="733" key="SettingsEditor/0.356.1920.1173/1920.0.1200.1920@1920.0.1200.1920" timestamp="1604384650496" />
+    <state x="441" y="229" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1604212021654">
+      <screen x="0" y="27" width="2214" height="741" />
+    </state>
+    <state x="441" y="229" key="Vcs.Push.Dialog.v2/0.27.2214.741@0.27.2214.741" timestamp="1604212021654" />
     <state x="555" y="640" width="802" height="528" key="Vcs.Push.Dialog.v2/0.326.1920.1152/1920.0.1200.1920@0.326.1920.1152" timestamp="1604134990568" />
-    <state x="667" y="476" width="586" height="855" key="find.popup" timestamp="1604133332115">
-      <screen x="0" y="326" width="1920" height="1152" />
+    <state x="2337" y="250" width="608" height="1425" key="find.popup" timestamp="1604384243632">
+      <screen x="1920" y="0" width="1200" height="1920" />
     </state>
     <state x="667" y="476" width="586" height="855" key="find.popup/0.326.1920.1152/1920.0.1200.1920@0.326.1920.1152" timestamp="1604133332115" />
+    <state x="2337" y="250" width="608" height="1425" key="find.popup/0.356.1920.1173/1920.0.1200.1920@1920.0.1200.1920" timestamp="1604384243632" />
   </component>
 </project>
