@@ -24,9 +24,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5c0a08f-a70d-4ec8-b62e-70689fbae763" name="Default Changelist" comment="shop added">
+    <list default="true" id="f5c0a08f-a70d-4ec8-b62e-70689fbae763" name="Default Changelist" comment="stray word removed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/html/project.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/project.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +88,9 @@
       <workItem from="1604474864923" duration="3491000" />
       <workItem from="1604577453390" duration="7000" />
       <workItem from="1604725703810" duration="2536000" />
-      <workItem from="1605237953290" duration="6473000" />
+      <workItem from="1605237953290" duration="6707000" />
+      <workItem from="1605678549866" duration="49000" />
+      <workItem from="1605767653543" duration="28000" />
     </task>
     <task id="LOCAL-00001" summary="link fixes and subscribe.html added">
       <created>1604129692431</created>
@@ -182,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605247201155</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="stray word removed">
+      <created>1605247983194</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1605247983194</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +220,8 @@
     <MESSAGE value="added degree certificate, removed contact.html" />
     <MESSAGE value="workspace.xml file" />
     <MESSAGE value="shop added" />
-    <option name="LAST_COMMIT_MESSAGE" value="shop added" />
+    <MESSAGE value="stray word removed" />
+    <option name="LAST_COMMIT_MESSAGE" value="stray word removed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="693" y="653" width="526" height="501" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604127502854">
@@ -231,10 +240,10 @@
       <screen x="1920" y="0" width="1200" height="1920" />
     </state>
     <state x="2031" y="595" width="977" height="733" key="SettingsEditor/0.356.1920.1173/1920.0.1200.1920@1920.0.1200.1920" timestamp="1604384650496" />
-    <state x="272" y="220" width="800" height="531" key="Vcs.Push.Dialog.v2" timestamp="1605247223513">
+    <state x="272" y="216" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1605247994582">
       <screen x="0" y="24" width="1366" height="720" />
     </state>
-    <state x="272" y="220" key="Vcs.Push.Dialog.v2/0.24.1366.720@0.24.1366.720" timestamp="1605247223513" />
+    <state x="272" y="216" width="802" height="528" key="Vcs.Push.Dialog.v2/0.24.1366.720@0.24.1366.720" timestamp="1605247994582" />
     <state x="382" y="587" width="800" height="531" key="Vcs.Push.Dialog.v2/0.267.1920.1173/1920.0.1200.1920@0.267.1920.1173" timestamp="1604727666837" />
     <state x="441" y="229" key="Vcs.Push.Dialog.v2/0.27.2214.741@0.27.2214.741" timestamp="1604212021654" />
     <state x="555" y="640" width="802" height="528" key="Vcs.Push.Dialog.v2/0.326.1920.1152/1920.0.1200.1920@0.326.1920.1152" timestamp="1604134990568" />
