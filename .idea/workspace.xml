@@ -24,20 +24,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5c0a08f-a70d-4ec8-b62e-70689fbae763" name="Default Changelist" comment="I wish I cared for the grammar.">
+    <list default="true" id="f5c0a08f-a70d-4ec8-b62e-70689fbae763" name="Default Changelist" comment="added PayPal subscription code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/writings/BlissfulBeing.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/writings/BlissfulBeing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/writings/CanComputerThink.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/writings/CanComputerThink.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/writings/CraftWithFreeWill.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/writings/CraftWithFreeWill.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/writings/DayWellSpent.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/writings/DayWellSpent.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/writings/EvaluateSoftwareLib.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/writings/EvaluateSoftwareLib.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/writings/ExistentialExperience.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/writings/ExistentialExperience.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/writings/GiveUpApple.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/writings/GiveUpApple.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/writings/LostInThoughts.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/writings/LostInThoughts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/writings/MyComputer.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/writings/MyComputer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/writings/RevivingOlMachina.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/writings/RevivingOlMachina.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/writings/ThatMagicMoment.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/writings/ThatMagicMoment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/writings/freeSoftware.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/writings/freeSoftware.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/html/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/html/education.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/education.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/html/photo.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/photo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/html/project.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/project.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/html/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/html/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/shop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/html/subscribe.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/subscribe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/html/workExperience.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/workExperience.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/html/writing.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/writing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +103,8 @@
       <workItem from="1605767653543" duration="28000" />
       <workItem from="1606225179805" duration="195000" />
       <workItem from="1606453002833" duration="22000" />
-      <workItem from="1606454076281" duration="1162000" />
+      <workItem from="1606454076281" duration="1443000" />
+      <workItem from="1606734369951" duration="419000" />
     </task>
     <task id="LOCAL-00001" summary="link fixes and subscribe.html added">
       <created>1604129692431</created>
@@ -212,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606225269887</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="added PayPal subscription code">
+      <created>1606455336630</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1606455336631</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,7 +250,8 @@
     <MESSAGE value="shop added" />
     <MESSAGE value="stray word removed" />
     <MESSAGE value="I wish I cared for the grammar." />
-    <option name="LAST_COMMIT_MESSAGE" value="I wish I cared for the grammar." />
+    <MESSAGE value="added PayPal subscription code" />
+    <option name="LAST_COMMIT_MESSAGE" value="added PayPal subscription code" />
   </component>
   <component name="WindowStateProjectService">
     <state x="693" y="653" width="526" height="501" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604127502854">
