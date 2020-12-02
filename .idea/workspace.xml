@@ -24,8 +24,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5c0a08f-a70d-4ec8-b62e-70689fbae763" name="Default Changelist" comment="reorder experience, projects and education">
+    <list default="true" id="f5c0a08f-a70d-4ec8-b62e-70689fbae763" name="Default Changelist" comment="updated comments in html and css files">
+      <change afterPath="$PROJECT_DIR$/assets/img/42HzLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/belLogo.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/iiaLogo.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/iiscLogo.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/html/workExperience.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/workExperience.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +51,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jUtheUZ5zI2YrFwW1rnWF2pTCq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -94,7 +102,8 @@
       <workItem from="1606225179805" duration="195000" />
       <workItem from="1606453002833" duration="22000" />
       <workItem from="1606454076281" duration="1443000" />
-      <workItem from="1606734369951" duration="1531000" />
+      <workItem from="1606734369951" duration="2725000" />
+      <workItem from="1606914346184" duration="1042000" />
     </task>
     <task id="LOCAL-00001" summary="link fixes and subscribe.html added">
       <created>1604129692431</created>
@@ -215,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606734995598</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="updated comments in html and css files">
+      <created>1606736096102</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1606736096102</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,7 +265,8 @@
     <MESSAGE value="I wish I cared for the grammar." />
     <MESSAGE value="added PayPal subscription code" />
     <MESSAGE value="reorder experience, projects and education" />
-    <option name="LAST_COMMIT_MESSAGE" value="reorder experience, projects and education" />
+    <MESSAGE value="updated comments in html and css files" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated comments in html and css files" />
   </component>
   <component name="WindowStateProjectService">
     <state x="693" y="653" width="526" height="501" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604127502854">
@@ -268,19 +285,20 @@
       <screen x="1920" y="0" width="1200" height="1920" />
     </state>
     <state x="2031" y="595" width="977" height="733" key="SettingsEditor/0.356.1920.1173/1920.0.1200.1920@1920.0.1200.1920" timestamp="1604384650496" />
-    <state x="382" y="632" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1606735005285">
-      <screen x="0" y="325" width="1920" height="1152" />
+    <state x="2159" y="512" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1606736108720">
+      <screen x="1920" y="0" width="1200" height="1920" />
     </state>
     <state x="272" y="216" width="802" height="528" key="Vcs.Push.Dialog.v2/0.24.1366.720@0.24.1366.720" timestamp="1606225281419" />
     <state x="382" y="587" width="800" height="531" key="Vcs.Push.Dialog.v2/0.267.1920.1173/1920.0.1200.1920@0.267.1920.1173" timestamp="1604727666837" />
     <state x="441" y="229" key="Vcs.Push.Dialog.v2/0.27.2214.741@0.27.2214.741" timestamp="1604212021654" />
     <state x="382" y="632" key="Vcs.Push.Dialog.v2/0.325.1920.1152/1920.0.1200.1920@0.325.1920.1152" timestamp="1606735005285" />
+    <state x="2159" y="512" key="Vcs.Push.Dialog.v2/0.325.1920.1152/1920.0.1200.1920@1920.0.1200.1920" timestamp="1606736108720" />
     <state x="555" y="640" width="802" height="528" key="Vcs.Push.Dialog.v2/0.326.1920.1152/1920.0.1200.1920@0.326.1920.1152" timestamp="1604134990568" />
-    <state x="2337" y="251" width="609" height="1616" key="find.popup" timestamp="1606735901484">
+    <state x="2337" y="251" width="609" height="1616" key="find.popup" timestamp="1606735995880">
       <screen x="1920" y="0" width="1200" height="1920" />
     </state>
     <state x="475" y="118" width="693" height="606" key="find.popup/0.24.1366.720@0.24.1366.720" timestamp="1605241379764" />
-    <state x="2337" y="251" width="609" height="1616" key="find.popup/0.325.1920.1152/1920.0.1200.1920@1920.0.1200.1920" timestamp="1606735901484" />
+    <state x="2337" y="251" width="609" height="1616" key="find.popup/0.325.1920.1152/1920.0.1200.1920@1920.0.1200.1920" timestamp="1606735995880" />
     <state x="667" y="476" width="586" height="855" key="find.popup/0.326.1920.1152/1920.0.1200.1920@0.326.1920.1152" timestamp="1604133332115" />
     <state x="2337" y="250" width="608" height="1425" key="find.popup/0.356.1920.1173/1920.0.1200.1920@1920.0.1200.1920" timestamp="1604384243632" />
   </component>
