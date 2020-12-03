@@ -24,13 +24,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5c0a08f-a70d-4ec8-b62e-70689fbae763" name="Default Changelist" comment="updated comments in html and css files">
-      <change afterPath="$PROJECT_DIR$/assets/img/42HzLogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/belLogo.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/iiaLogo.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/iiscLogo.jpeg" afterDir="false" />
+    <list default="true" id="f5c0a08f-a70d-4ec8-b62e-70689fbae763" name="Default Changelist" comment="added org logos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/html/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/html/education.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/education.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/html/photo.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/photo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/html/project.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/project.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/html/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/html/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/shop.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/html/workExperience.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/workExperience.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +106,8 @@
       <workItem from="1606453002833" duration="22000" />
       <workItem from="1606454076281" duration="1443000" />
       <workItem from="1606734369951" duration="2725000" />
-      <workItem from="1606914346184" duration="1042000" />
+      <workItem from="1606914346184" duration="1728000" />
+      <workItem from="1607012815663" duration="384000" />
     </task>
     <task id="LOCAL-00001" summary="link fixes and subscribe.html added">
       <created>1604129692431</created>
@@ -231,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606736096102</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="added org logos">
+      <created>1606915666950</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1606915666950</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,16 +277,18 @@
     <MESSAGE value="added PayPal subscription code" />
     <MESSAGE value="reorder experience, projects and education" />
     <MESSAGE value="updated comments in html and css files" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated comments in html and css files" />
+    <MESSAGE value="added org logos" />
+    <option name="LAST_COMMIT_MESSAGE" value="added org logos" />
   </component>
   <component name="WindowStateProjectService">
     <state x="693" y="653" width="526" height="501" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604127502854">
       <screen x="0" y="326" width="1920" height="1152" />
     </state>
     <state x="693" y="653" width="526" height="501" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.326.1920.1152/1920.0.1200.1920@0.326.1920.1152" timestamp="1604127502854" />
-    <state x="712" y="802" width="485" height="283" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1604157866929">
-      <screen x="0" y="356" width="1920" height="1173" />
+    <state x="507" y="298" width="363" height="289" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1607012893754">
+      <screen x="0" y="24" width="1366" height="720" />
     </state>
+    <state x="507" y="298" width="363" height="289" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.24.1366.720@0.24.1366.720" timestamp="1607012893754" />
     <state x="712" y="802" width="485" height="283" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.356.1920.1173/1920.0.1200.1920@0.356.1920.1173" timestamp="1604157866929" />
     <state x="2303" y="720" width="426" height="484" key="FileChooserDialogImpl" timestamp="1604142371325">
       <screen x="1920" y="0" width="1200" height="1920" />
