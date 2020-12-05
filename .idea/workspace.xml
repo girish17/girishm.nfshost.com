@@ -24,16 +24,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5c0a08f-a70d-4ec8-b62e-70689fbae763" name="Default Changelist" comment="added org logos">
+    <list default="true" id="f5c0a08f-a70d-4ec8-b62e-70689fbae763" name="Default Changelist" comment="code reformatted.">
+      <change afterPath="$PROJECT_DIR$/assets/img/WorkTimeLine.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/html/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/html/education.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/education.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/html/photo.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/photo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/html/project.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/project.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/html/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/services.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/html/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/shop.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/html/workExperience.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/workExperience.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +56,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -107,7 +102,8 @@
       <workItem from="1606454076281" duration="1443000" />
       <workItem from="1606734369951" duration="2725000" />
       <workItem from="1606914346184" duration="1728000" />
-      <workItem from="1607012815663" duration="384000" />
+      <workItem from="1607012815663" duration="637000" />
+      <workItem from="1607153396696" duration="367000" />
     </task>
     <task id="LOCAL-00001" summary="link fixes and subscribe.html added">
       <created>1604129692431</created>
@@ -242,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606915666950</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="code reformatted.">
+      <created>1607013436511</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1607013436511</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,6 +264,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="link fixes and subscribe.html added" />
     <MESSAGE value="warnings fixed in html" />
     <MESSAGE value="workspace.xml file added" />
@@ -278,7 +282,8 @@
     <MESSAGE value="reorder experience, projects and education" />
     <MESSAGE value="updated comments in html and css files" />
     <MESSAGE value="added org logos" />
-    <option name="LAST_COMMIT_MESSAGE" value="added org logos" />
+    <MESSAGE value="code reformatted." />
+    <option name="LAST_COMMIT_MESSAGE" value="code reformatted." />
   </component>
   <component name="WindowStateProjectService">
     <state x="693" y="653" width="526" height="501" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604127502854">
