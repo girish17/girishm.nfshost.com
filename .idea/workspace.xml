@@ -24,9 +24,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5c0a08f-a70d-4ec8-b62e-70689fbae763" name="Default Changelist" comment="experience image logo formatted">
+    <list default="true" id="f5c0a08f-a70d-4ec8-b62e-70689fbae763" name="Default Changelist" comment="experience gantt width adjust">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/html/workExperience.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/workExperience.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +61,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../op-mattermost-plugin" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
@@ -102,7 +101,8 @@
       <workItem from="1606734369951" duration="2725000" />
       <workItem from="1606914346184" duration="1728000" />
       <workItem from="1607012815663" duration="637000" />
-      <workItem from="1607153396696" duration="1035000" />
+      <workItem from="1607153396696" duration="1190000" />
+      <workItem from="1607932841664" duration="698000" />
     </task>
     <task id="LOCAL-00001" summary="link fixes and subscribe.html added">
       <created>1604129692431</created>
@@ -251,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607154075420</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="experience gantt width adjust">
+      <created>1607154458888</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1607154458888</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,7 +297,8 @@
     <MESSAGE value="added org logos" />
     <MESSAGE value="code reformatted." />
     <MESSAGE value="experience image logo formatted" />
-    <option name="LAST_COMMIT_MESSAGE" value="experience image logo formatted" />
+    <MESSAGE value="experience gantt width adjust" />
+    <option name="LAST_COMMIT_MESSAGE" value="experience gantt width adjust" />
   </component>
   <component name="WindowStateProjectService">
     <state x="693" y="653" width="526" height="501" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604127502854">
@@ -302,18 +310,19 @@
     </state>
     <state x="507" y="298" width="363" height="289" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.24.1366.720@0.24.1366.720" timestamp="1607012893754" />
     <state x="712" y="802" width="485" height="283" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.356.1920.1173/1920.0.1200.1920@0.356.1920.1173" timestamp="1604157866929" />
-    <state x="2303" y="720" width="426" height="484" key="FileChooserDialogImpl" timestamp="1604142371325">
-      <screen x="1920" y="0" width="1200" height="1920" />
+    <state x="613" y="757" width="426" height="484" key="FileChooserDialogImpl" timestamp="1607934944357">
+      <screen x="0" y="325" width="1920" height="1152" />
     </state>
+    <state x="613" y="757" key="FileChooserDialogImpl/0.325.1920.1152/1920.0.1200.1920@0.325.1920.1152" timestamp="1607934944357" />
     <state x="2303" y="720" width="426" height="484" key="FileChooserDialogImpl/0.326.1920.1152/1920.0.1200.1920@1920.0.1200.1920" timestamp="1604142371325" />
     <state x="2031" y="595" width="977" height="733" key="SettingsEditor" timestamp="1604384650496">
       <screen x="1920" y="0" width="1200" height="1920" />
     </state>
     <state x="2031" y="595" width="977" height="733" key="SettingsEditor/0.356.1920.1173/1920.0.1200.1920@1920.0.1200.1920" timestamp="1604384650496" />
-    <state x="272" y="216" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1607154095501">
+    <state x="272" y="216" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1607154460918">
       <screen x="0" y="24" width="1366" height="720" />
     </state>
-    <state x="272" y="216" width="802" height="528" key="Vcs.Push.Dialog.v2/0.24.1366.720@0.24.1366.720" timestamp="1607154095501" />
+    <state x="272" y="216" width="802" height="528" key="Vcs.Push.Dialog.v2/0.24.1366.720@0.24.1366.720" timestamp="1607154460918" />
     <state x="382" y="587" width="800" height="531" key="Vcs.Push.Dialog.v2/0.267.1920.1173/1920.0.1200.1920@0.267.1920.1173" timestamp="1604727666837" />
     <state x="441" y="229" key="Vcs.Push.Dialog.v2/0.27.2214.741@0.27.2214.741" timestamp="1604212021654" />
     <state x="382" y="632" key="Vcs.Push.Dialog.v2/0.325.1920.1152/1920.0.1200.1920@0.325.1920.1152" timestamp="1606735005285" />
