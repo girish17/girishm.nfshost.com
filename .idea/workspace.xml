@@ -24,9 +24,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5c0a08f-a70d-4ec8-b62e-70689fbae763" name="Default Changelist" comment="certificate image align right">
+    <list default="true" id="f5c0a08f-a70d-4ec8-b62e-70689fbae763" name="Default Changelist" comment="minor grammar and punctuation fixes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/writings/GiveUpApple.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/writings/GiveUpApple.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/writings/RevivingOlMachina.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/writings/RevivingOlMachina.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +109,7 @@
       <workItem from="1608116332971" duration="698000" />
       <workItem from="1608130642290" duration="62000" />
       <workItem from="1608202407124" duration="28000" />
-      <workItem from="1608542256343" duration="314000" />
+      <workItem from="1608542256343" duration="1509000" />
     </task>
     <task id="LOCAL-00001" summary="link fixes and subscribe.html added">
       <created>1604129692431</created>
@@ -286,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608116614055</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="minor grammar and punctuation fixes">
+      <created>1608542663692</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1608542663692</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,7 +336,8 @@
     <MESSAGE value="description update" />
     <MESSAGE value="grammar fix" />
     <MESSAGE value="certificate image align right" />
-    <option name="LAST_COMMIT_MESSAGE" value="certificate image align right" />
+    <MESSAGE value="minor grammar and punctuation fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor grammar and punctuation fixes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="693" y="653" width="526" height="501" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604127502854">
@@ -350,13 +358,13 @@
       <screen x="1920" y="0" width="1200" height="1920" />
     </state>
     <state x="2031" y="595" width="977" height="733" key="SettingsEditor/0.356.1920.1173/1920.0.1200.1920@1920.0.1200.1920" timestamp="1604384650496" />
-    <state x="382" y="632" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1608116626199">
+    <state x="382" y="632" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1608542678341">
       <screen x="0" y="325" width="1920" height="1152" />
     </state>
     <state x="272" y="216" width="802" height="528" key="Vcs.Push.Dialog.v2/0.24.1366.720@0.24.1366.720" timestamp="1607154460918" />
     <state x="382" y="587" width="800" height="531" key="Vcs.Push.Dialog.v2/0.267.1920.1173/1920.0.1200.1920@0.267.1920.1173" timestamp="1604727666837" />
     <state x="441" y="229" key="Vcs.Push.Dialog.v2/0.27.2214.741@0.27.2214.741" timestamp="1604212021654" />
-    <state x="382" y="632" width="802" height="528" key="Vcs.Push.Dialog.v2/0.325.1920.1152/1920.0.1200.1920@0.325.1920.1152" timestamp="1608116626199" />
+    <state x="382" y="632" width="802" height="528" key="Vcs.Push.Dialog.v2/0.325.1920.1152/1920.0.1200.1920@0.325.1920.1152" timestamp="1608542678341" />
     <state x="2159" y="512" key="Vcs.Push.Dialog.v2/0.325.1920.1152/1920.0.1200.1920@1920.0.1200.1920" timestamp="1606736108720" />
     <state x="555" y="640" width="802" height="528" key="Vcs.Push.Dialog.v2/0.326.1920.1152/1920.0.1200.1920@0.326.1920.1152" timestamp="1604134990568" />
     <state x="2337" y="251" width="609" height="1616" key="find.popup" timestamp="1606735995880">
