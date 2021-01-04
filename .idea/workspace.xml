@@ -24,9 +24,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5c0a08f-a70d-4ec8-b62e-70689fbae763" name="Default Changelist" comment="minor grammar and punctuation fixes">
+    <list default="true" id="f5c0a08f-a70d-4ec8-b62e-70689fbae763" name="Default Changelist" comment="categorization of writings">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/writings/RevivingOlMachina.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/writings/RevivingOlMachina.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/html/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/html/education.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/education.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/html/photo.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/photo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/html/project.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/project.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/html/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/html/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/shop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/html/subscribe.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/subscribe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/html/workExperience.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/workExperience.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/html/writing.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/writing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +68,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
@@ -110,6 +120,9 @@
       <workItem from="1608130642290" duration="62000" />
       <workItem from="1608202407124" duration="28000" />
       <workItem from="1608542256343" duration="1509000" />
+      <workItem from="1609643438294" duration="1990000" />
+      <workItem from="1609741723190" duration="6000" />
+      <workItem from="1609745928756" duration="327000" />
     </task>
     <task id="LOCAL-00001" summary="link fixes and subscribe.html added">
       <created>1604129692431</created>
@@ -293,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608542663692</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="categorization of writings">
+      <created>1609643686095</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1609643686095</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,42 +357,7 @@
     <MESSAGE value="grammar fix" />
     <MESSAGE value="certificate image align right" />
     <MESSAGE value="minor grammar and punctuation fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor grammar and punctuation fixes" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="693" y="653" width="526" height="501" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604127502854">
-      <screen x="0" y="326" width="1920" height="1152" />
-    </state>
-    <state x="693" y="653" width="526" height="501" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.326.1920.1152/1920.0.1200.1920@0.326.1920.1152" timestamp="1604127502854" />
-    <state x="507" y="298" width="363" height="289" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1607012893754">
-      <screen x="0" y="24" width="1366" height="720" />
-    </state>
-    <state x="507" y="298" width="363" height="289" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.24.1366.720@0.24.1366.720" timestamp="1607012893754" />
-    <state x="712" y="802" width="485" height="283" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.356.1920.1173/1920.0.1200.1920@0.356.1920.1173" timestamp="1604157866929" />
-    <state x="613" y="757" width="426" height="484" key="FileChooserDialogImpl" timestamp="1607934944357">
-      <screen x="0" y="325" width="1920" height="1152" />
-    </state>
-    <state x="613" y="757" key="FileChooserDialogImpl/0.325.1920.1152/1920.0.1200.1920@0.325.1920.1152" timestamp="1607934944357" />
-    <state x="2303" y="720" width="426" height="484" key="FileChooserDialogImpl/0.326.1920.1152/1920.0.1200.1920@1920.0.1200.1920" timestamp="1604142371325" />
-    <state x="2031" y="595" width="977" height="733" key="SettingsEditor" timestamp="1604384650496">
-      <screen x="1920" y="0" width="1200" height="1920" />
-    </state>
-    <state x="2031" y="595" width="977" height="733" key="SettingsEditor/0.356.1920.1173/1920.0.1200.1920@1920.0.1200.1920" timestamp="1604384650496" />
-    <state x="382" y="632" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1608542678341">
-      <screen x="0" y="325" width="1920" height="1152" />
-    </state>
-    <state x="272" y="216" width="802" height="528" key="Vcs.Push.Dialog.v2/0.24.1366.720@0.24.1366.720" timestamp="1607154460918" />
-    <state x="382" y="587" width="800" height="531" key="Vcs.Push.Dialog.v2/0.267.1920.1173/1920.0.1200.1920@0.267.1920.1173" timestamp="1604727666837" />
-    <state x="441" y="229" key="Vcs.Push.Dialog.v2/0.27.2214.741@0.27.2214.741" timestamp="1604212021654" />
-    <state x="382" y="632" width="802" height="528" key="Vcs.Push.Dialog.v2/0.325.1920.1152/1920.0.1200.1920@0.325.1920.1152" timestamp="1608542678341" />
-    <state x="2159" y="512" key="Vcs.Push.Dialog.v2/0.325.1920.1152/1920.0.1200.1920@1920.0.1200.1920" timestamp="1606736108720" />
-    <state x="555" y="640" width="802" height="528" key="Vcs.Push.Dialog.v2/0.326.1920.1152/1920.0.1200.1920@0.326.1920.1152" timestamp="1604134990568" />
-    <state x="2337" y="251" width="609" height="1616" key="find.popup" timestamp="1606735995880">
-      <screen x="1920" y="0" width="1200" height="1920" />
-    </state>
-    <state x="475" y="118" width="693" height="606" key="find.popup/0.24.1366.720@0.24.1366.720" timestamp="1605241379764" />
-    <state x="2337" y="251" width="609" height="1616" key="find.popup/0.325.1920.1152/1920.0.1200.1920@1920.0.1200.1920" timestamp="1606735995880" />
-    <state x="667" y="476" width="586" height="855" key="find.popup/0.326.1920.1152/1920.0.1200.1920@0.326.1920.1152" timestamp="1604133332115" />
-    <state x="2337" y="250" width="608" height="1425" key="find.popup/0.356.1920.1173/1920.0.1200.1920@1920.0.1200.1920" timestamp="1604384243632" />
+    <MESSAGE value="categorization of writings" />
+    <option name="LAST_COMMIT_MESSAGE" value="categorization of writings" />
   </component>
 </project>
