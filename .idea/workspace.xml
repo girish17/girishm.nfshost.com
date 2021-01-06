@@ -24,10 +24,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5c0a08f-a70d-4ec8-b62e-70689fbae763" name="Default Changelist" comment="minor grammar, punctuation fixes and notable mention">
+    <list default="true" id="f5c0a08f-a70d-4ec8-b62e-70689fbae763" name="Default Changelist" comment="lingo update in experience and photo pages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/html/photo.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/photo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/html/workExperience.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/workExperience.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/html/education.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/education.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/html/project.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/project.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/degree.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +44,9 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -111,7 +115,7 @@
       <workItem from="1608130642290" duration="62000" />
       <workItem from="1608202407124" duration="28000" />
       <workItem from="1608542256343" duration="3201000" />
-      <workItem from="1609912543703" duration="2913000" />
+      <workItem from="1609912543703" duration="4095000" />
     </task>
     <task id="LOCAL-00001" summary="link fixes and subscribe.html added">
       <created>1604129692431</created>
@@ -302,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608543823475</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="lingo update in experience and photo pages">
+      <created>1609921752708</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1609921752708</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,7 +333,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="link fixes and subscribe.html added" />
     <MESSAGE value="warnings fixed in html" />
     <MESSAGE value="workspace.xml file added" />
     <MESSAGE value="workspace.xml file added and README.md updated." />
@@ -347,12 +357,14 @@
     <MESSAGE value="certificate image align right" />
     <MESSAGE value="minor grammar and punctuation fixes" />
     <MESSAGE value="minor grammar, punctuation fixes and notable mention" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor grammar, punctuation fixes and notable mention" />
+    <MESSAGE value="lingo update in experience and photo pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="lingo update in experience and photo pages" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="693" y="653" width="526" height="501" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604127502854">
-      <screen x="0" y="326" width="1920" height="1152" />
+    <state x="693" y="652" width="526" height="501" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609922349153">
+      <screen x="0" y="325" width="1920" height="1152" />
     </state>
+    <state x="693" y="652" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.325.1920.1152/1920.0.1200.1920@0.325.1920.1152" timestamp="1609922349153" />
     <state x="693" y="653" width="526" height="501" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.326.1920.1152/1920.0.1200.1920@0.326.1920.1152" timestamp="1604127502854" />
     <state x="507" y="298" width="363" height="289" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1607012893754">
       <screen x="0" y="24" width="1366" height="720" />
@@ -364,17 +376,21 @@
     </state>
     <state x="613" y="757" key="FileChooserDialogImpl/0.325.1920.1152/1920.0.1200.1920@0.325.1920.1152" timestamp="1607934944357" />
     <state x="2303" y="720" width="426" height="484" key="FileChooserDialogImpl/0.326.1920.1152/1920.0.1200.1920@1920.0.1200.1920" timestamp="1604142371325" />
+    <state x="600" y="666" width="711" height="473" key="MultipleFileMergeDialog" timestamp="1609921788022">
+      <screen x="0" y="325" width="1920" height="1152" />
+    </state>
+    <state x="600" y="666" width="711" height="473" key="MultipleFileMergeDialog/0.325.1920.1152/1920.0.1200.1920@0.325.1920.1152" timestamp="1609921788022" />
     <state x="2031" y="595" width="977" height="733" key="SettingsEditor" timestamp="1604384650496">
       <screen x="1920" y="0" width="1200" height="1920" />
     </state>
     <state x="2031" y="595" width="977" height="733" key="SettingsEditor/0.356.1920.1173/1920.0.1200.1920@1920.0.1200.1920" timestamp="1604384650496" />
-    <state x="382" y="632" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1608543835142">
+    <state x="382" y="632" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1609921830614">
       <screen x="0" y="325" width="1920" height="1152" />
     </state>
     <state x="272" y="216" width="802" height="528" key="Vcs.Push.Dialog.v2/0.24.1366.720@0.24.1366.720" timestamp="1607154460918" />
     <state x="382" y="587" width="800" height="531" key="Vcs.Push.Dialog.v2/0.267.1920.1173/1920.0.1200.1920@0.267.1920.1173" timestamp="1604727666837" />
     <state x="441" y="229" key="Vcs.Push.Dialog.v2/0.27.2214.741@0.27.2214.741" timestamp="1604212021654" />
-    <state x="382" y="632" width="802" height="528" key="Vcs.Push.Dialog.v2/0.325.1920.1152/1920.0.1200.1920@0.325.1920.1152" timestamp="1608543835142" />
+    <state x="382" y="632" width="802" height="528" key="Vcs.Push.Dialog.v2/0.325.1920.1152/1920.0.1200.1920@0.325.1920.1152" timestamp="1609921830614" />
     <state x="2159" y="512" key="Vcs.Push.Dialog.v2/0.325.1920.1152/1920.0.1200.1920@1920.0.1200.1920" timestamp="1606736108720" />
     <state x="555" y="640" width="802" height="528" key="Vcs.Push.Dialog.v2/0.326.1920.1152/1920.0.1200.1920@0.326.1920.1152" timestamp="1604134990568" />
     <state x="2337" y="251" width="609" height="1616" key="find.popup" timestamp="1606735995880">
