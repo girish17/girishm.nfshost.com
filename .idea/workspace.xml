@@ -26,7 +26,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f5c0a08f-a70d-4ec8-b62e-70689fbae763" name="Default Changelist" comment="1. demo instead of logo for op-mattermost 2. removed degree certificate due to potential issues">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/html/project.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/project.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/html/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/services.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/html/subscribe.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/subscribe.html" afterDir="false" />
     </list>
@@ -116,7 +115,7 @@
       <workItem from="1608202407124" duration="28000" />
       <workItem from="1608542256343" duration="3201000" />
       <workItem from="1609912543703" duration="5235000" />
-      <workItem from="1610695274089" duration="1288000" />
+      <workItem from="1610695274089" duration="2418000" />
     </task>
     <task id="LOCAL-00001" summary="link fixes and subscribe.html added">
       <created>1604129692431</created>
