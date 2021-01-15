@@ -56,45 +56,67 @@
     </ul>
 </nav>
 
-<!-- Contact form -->
-<div style="max-width:500px;padding:30px">
-    <div id="fcf-form">
-        <form class="fcf-form-class" id="freeversion" method="post" action="../fcf-assets/fcf.process.php">
+<div class="inner flex flex-3">
+    <div class="flex-item">
+        <!-- Contact form -->
+        <div style="max-width:500px;padding:30px">
+            <div id="fcf-form">
+                <form class="fcf-form-class" id="freeversion" method="post" action="../fcf-assets/fcf.process.php">
 
-            <div class="field">
-                <label for="Name" class="label has-text-weight-normal">Your name</label>
-                <div class="control">
-                    <input type="text" name="Name" id="Name" class="input is-full-width" maxlength="100"
-                           data-validate-field="Name">
-                </div>
-            </div>
-            <div class="field">
-                <label for="Email" class="label has-text-weight-normal">Your email address</label>
-                <div class="control">
-                    <input type="email" name="Email" id="Email" class="input is-full-width" maxlength="100"
-                           data-validate-field="Email">
-                </div>
-            </div>
-            <div class="field">
-                <label for="Message" class="label has-text-weight-normal">Your enquiry</label>
-                <div class="control">
+                    <div class="field">
+                        <label for="Name" class="label has-text-weight-normal">Your name</label>
+                        <div class="control">
+                            <input type="text" name="Name" id="Name" class="input is-full-width" maxlength="100"
+                                   data-validate-field="Name">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label for="Email" class="label has-text-weight-normal">Your email address</label>
+                        <div class="control">
+                            <input type="email" name="Email" id="Email" class="input is-full-width" maxlength="100"
+                                   data-validate-field="Email">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label for="Message" class="label has-text-weight-normal">Your enquiry</label>
+                        <div class="control">
 						<textarea name="Message" id="Message" class="textarea" maxlength="3000" rows="5"
                                   data-validate-field="Message"></textarea>
-                </div>
+                        </div>
+                    </div>
+                    <div id="fcf-status" class="fcf-status"></div>
+                    <div class="field">
+                        <div class="buttons">
+                            <button id="fcf-button" type="submit" class="button is-link is-medium">Send enquiry</button>
+                        </div>
+                    </div>
+                </form>
             </div>
-            <div id="fcf-status" class="fcf-status"></div>
-            <div class="field">
-                <div class="buttons">
-                    <button id="fcf-button" type="submit" class="button is-link is-medium">Send enquiry</button>
-                </div>
+            <div id="fcf-thank-you" style="display:none">
+                <!-- Thank you message goes below -->
+                <strong>Thank you</strong>
+                <p>I will be in touch with you soon.</p>
+                <!-- Thank you message goes above -->
             </div>
-        </form>
+        </div>
     </div>
-    <div id="fcf-thank-you" style="display:none">
-        <!-- Thank you message goes below -->
-        <strong>Thank you</strong>
-        <p>I will be in touch with you soon.</p>
-        <!-- Thank you message goes above -->
+    <div class="flex-item box">
+        <!-- Testimonial -->
+        <section id="two" class="wrapper">
+            <div class="inner content">
+                <h3>Client testimonial</h3>
+                <p>
+                    <i>"When my children were just entering middle school, I was in need of an experienced coding tutor to give my children the first basic steps into the world of information technology.  Girish started working with them both on a daily basis and introduced the coding language Python.   During these lessons, the children worked one on one with Girish to understand the foundations of coding.  Over the course of a year, my wife and I witnessed a positive change in the skills our children had developed.  I recall vividly the excitement my older son had when he created his first app under the tutelage of Girish.    Seeing this transformation happen is always the greatest joy for any parent.  As parents, we are so thankful for all the hours of time Girish allocated to our children to ensure their understanding of coding was complete and uninhibited.   Additionally, working with Girish has been a great pleasure as he is a professional and extremely knowledgeable of his expertise in the world of information technology."</i>
+                </p>
+                <span>
+            Mr. Tahir Rashid
+        </span>
+                <br/>
+                <span>
+            Financial Consultant, based in USA
+        </span>
+            </div>
+        </section>
     </div>
 </div>
 
