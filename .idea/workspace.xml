@@ -25,14 +25,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5c0a08f-a70d-4ec8-b62e-70689fbae763" name="Default Changelist" comment="1. demo instead of logo for op-mattermost 2. removed degree certificate due to potential issues">
-      <change afterPath="$PROJECT_DIR$/assets/img/androidGame.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/androidGameGUI.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/diceRoller2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/diceRollerNotes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/gameDevGuidelines.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/html/photo.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/photo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/html/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/shop.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,7 +117,7 @@
       <workItem from="1608542256343" duration="3201000" />
       <workItem from="1609912543703" duration="5235000" />
       <workItem from="1610695274089" duration="3160000" />
-      <workItem from="1611036450454" duration="4638000" />
+      <workItem from="1611036450454" duration="6573000" />
     </task>
     <task id="LOCAL-00001" summary="link fixes and subscribe.html added">
       <created>1604129692431</created>
