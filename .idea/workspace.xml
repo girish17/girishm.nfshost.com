@@ -25,9 +25,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5c0a08f-a70d-4ec8-b62e-70689fbae763" name="Default Changelist" comment="1. demo instead of logo for op-mattermost 2. removed degree certificate due to potential issues">
+      <change afterPath="$PROJECT_DIR$/assets/img/androidGame.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/androidGameGUI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/diceRoller2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/diceRollerNotes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/gameDevGuidelines.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/html/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/services.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/html/subscribe.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/subscribe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/html/photo.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/html/photo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +121,8 @@
       <workItem from="1608202407124" duration="28000" />
       <workItem from="1608542256343" duration="3201000" />
       <workItem from="1609912543703" duration="5235000" />
-      <workItem from="1610695274089" duration="2418000" />
+      <workItem from="1610695274089" duration="3160000" />
+      <workItem from="1611036450454" duration="4638000" />
     </task>
     <task id="LOCAL-00001" summary="link fixes and subscribe.html added">
       <created>1604129692431</created>
@@ -407,9 +414,10 @@
     <state x="2337" y="251" width="609" height="1616" key="find.popup/0.325.1920.1152/1920.0.1200.1920@1920.0.1200.1920" timestamp="1606735995880" />
     <state x="667" y="476" width="586" height="855" key="find.popup/0.326.1920.1152/1920.0.1200.1920@0.326.1920.1152" timestamp="1604133332115" />
     <state x="2337" y="250" width="608" height="1425" key="find.popup/0.356.1920.1173/1920.0.1200.1920@1920.0.1200.1920" timestamp="1604384243632" />
-    <state x="2183" y="450" width="672" height="678" key="search.everywhere.popup" timestamp="1610696153492">
-      <screen x="1920" y="0" width="1200" height="1920" />
+    <state x="421" y="676" width="1076" height="407" key="search.everywhere.popup" timestamp="1611036825911">
+      <screen x="0" y="406" width="1920" height="1152" />
     </state>
+    <state x="421" y="676" width="1076" height="407" key="search.everywhere.popup/0.406.1920.1152/1920.0.1200.1920@0.406.1920.1152" timestamp="1611036825911" />
     <state x="2183" y="450" width="672" height="678" key="search.everywhere.popup/0.406.1920.1152/1920.0.1200.1920@1920.0.1200.1920" timestamp="1610696153492" />
   </component>
 </project>
