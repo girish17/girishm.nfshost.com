@@ -25,7 +25,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5c0a08f-a70d-4ec8-b62e-70689fbae763" name="Default Changelist" comment="1. demo instead of logo for op-mattermost 2. removed degree certificate due to potential issues">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/keeping_it_low.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/keeping_it_low/shelved.patch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/writings/BlissfulBeing.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/writings/BlissfulBeing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/writings/CanComputerThink.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/writings/CanComputerThink.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/writings/CraftWithFreeWill.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/writings/CraftWithFreeWill.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/writings/DayWellSpent.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/writings/DayWellSpent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/writings/EvaluateSoftwareLib.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/writings/EvaluateSoftwareLib.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/writings/ExistentialExperience.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/writings/ExistentialExperience.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/writings/GiveUpApple.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/writings/GiveUpApple.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/writings/LostInThoughts.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/writings/LostInThoughts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/writings/MyComputer.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/writings/MyComputer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/writings/RevivingOlMachina.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/writings/RevivingOlMachina.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/writings/ThatMagicMoment.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/writings/ThatMagicMoment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/writings/freeSoftware.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/writings/freeSoftware.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
