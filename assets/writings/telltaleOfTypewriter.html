@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0//EN"
-        "http://www.w3.org/Math/DTD/mathml2/xhtml-math11-f.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <!--This file was converted to xhtml by LibreOffice - see https://cgit.freedesktop.org/libreoffice/core/tree/filter/source/xslt for the code.-->
 <head profile="http://dublincore.org/documents/dcmi-terms/">
     <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8"/>
@@ -391,7 +390,8 @@
     <p>
     <h3>Want to read more? Subscribe to my weekly writings.</h3>
     <div id="paypal-button-container"></div>
-    <script src="https://www.paypal.com/sdk/js?client-id=AaLH7GRw2dvpLPvQFOJ_CENpAod_I9_3zJyIXM5alQP245nr6_u-WkXfLqkG3XmCUeyPbbsBQU99q7B5&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
+    <script src="https://www.paypal.com/sdk/js?client-id=AaLH7GRw2dvpLPvQFOJ_CENpAod_I9_3zJyIXM5alQP245nr6_u-WkXfLqkG3XmCUeyPbbsBQU99q7B5&vault=true&intent=subscription"
+            data-sdk-integration-source="button-factory"></script>
     <script>
         paypal.Buttons({
             style: {
@@ -400,28 +400,30 @@
                 layout: 'vertical',
                 label: 'subscribe'
             },
-            createSubscription: function(data, actions) {
+            createSubscription: function (data, actions) {
                 return actions.subscription.create({
                     'plan_id': 'P-7J9812355A9780533L7AI2HQ'
                 });
             },
-            onApprove: function(data, actions) {
+            onApprove: function (data, actions) {
                 alert(data.subscriptionID);
             }
         }).render('#paypal-button-container');
     </script>
     </p>
     <p>
-        <a href="https://www.patreon.com/bePatron?u=49125356" data-patreon-widget-type="become-patron-button">Become a Patron!</a>
+        <a href="https://www.patreon.com/bePatron?u=49125356" data-patreon-widget-type="become-patron-button">Become a
+            Patron!</a>
         <script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
     </p>
+    <br>
     <p>
-    <nav class="right">
-        <a href="../../index.html"><img src="../img/home.jpg"></a>
-    </nav>
+        <nav class="right">
+            <a href="../../index.html"><img src="../img/home.jpg"></a>
+        </nav>
     </p>
     <p>Copyright &copy; 2021, Girish M <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img
-            alt="Creative Commons License" style="border-width:0" src="../img/cc.png" /></a><br />This work is licensed
+            alt="Creative Commons License" style="border-width:0" src="../img/cc.png"/></a><br/>This work is licensed
         under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons
             Attribution 4.0 International License</a>. The source for this web-page can be found <a
                 href="https://notabug.org/girishm/girishm.nfshost.com/src/master/assets/writings/telltaleOfTypewriter.html">here</a>
