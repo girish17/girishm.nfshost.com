@@ -31,6 +31,32 @@
 		#altLinks li{
 			display: inline;
 		}
+		ul#simpleQuote{
+			list-style-type: none;
+		}
+		ul#simpleQuote li{
+			font-family: 'Parisienne', cursive;
+			font-size: 30px;
+			width: 65%;
+		}
+
+		#container{
+			margin: 150px auto;
+			max-width: 960px;
+		}
+
+		#author{
+			font-family: 'Parisienne', cursive;
+			font-size: 21px;
+			right: 0px;
+		}
+
+		.footer {
+			font-family: 'Ribeye Marrow' , cursive;
+			font-size: 18px;
+			margin-left : 12%;
+			margin-top: 26%;
+		}
 	</style>
 </head>
 
@@ -91,18 +117,26 @@
 					</ul>
 				</div>
 			</div>
-			<div class="flex-item box">
-				<div class="image fit">
-					<img src="assets/img/nes.png" alt=""/>
-				</div>
-				<div class="content">
-					<h3>Guess, which game ends like this?</h3>
-					<p>If you have played it and reached this end then, you're a hero, as ascertained by the game's creators.</p>
-				</div>
-			</div>
 		</div>
 	</section>
 
+	<div id="container">
+		<ul id="simpleQuote">
+			<li id="display"></li>
+			<li author="Mark Twain">
+				It ain't what you don't know that gets you into trouble, it's what you know for sure but just ain't so.
+			</li>
+			<li author="Arthur Schopenhauer">
+				Man can do what he wills but cannot will what he wills.
+			</li>
+			<li author="Friedrich Nietzche">
+				There are no facts, only interpretations.
+			</li>
+			<li author="Arthur Schopenhauer">
+				A man can be himself only so long as he is alone; and if he does not love solitude, he will not love freedom; for it is only when he is alone that he is really free.
+			</li>
+		</ul>
+	</div>
 	<!-- Footer -->
 	<footer id="footer">
 		<div class="inner">
@@ -150,10 +184,14 @@
 	<!-- Scripts -->
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/jquery.simpleQuote.js"></script>
 	<script src="assets/js/skel.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
-
+	<script type="text/javascript">
+		// Simple Quote
+		$("#simpleQuote").simpleQuote( {speed: 7000}, { includeAuthor: true });
+	</script>
 </body>
 
 </html>
