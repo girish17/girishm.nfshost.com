@@ -1,0 +1,214 @@
+<!--
+    girishm.nfshost.com is the source for personal webpage (www.girishm.info or its alias www.girishm.nfshost.com) of Girish M
+    Copyright &copy; 2020  Girish M
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>
+
+	Intensify by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <title>Shop</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="assets/css/main.css"/>
+    <style type="text/css">
+        #altLinks li{
+            display: inline;
+        }
+    </style>
+</head>
+
+<body>
+<!--  -->
+
+<!-- Header -->
+<header id="header">
+    <nav class="left">
+        <a href="#menu"><span>Menu</span></a>
+    </nav>
+    <a href="shop.html" class="logo">Shop</a>
+    <nav class="right">
+        <a href="index.html"><img src="assets/img/home.jpg"></a>
+    </nav>
+</header>
+
+<!-- Menu -->
+<nav id="menu">
+    <ul class="links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="project.html">Projects</a></li>
+        <li><a href="workExperience.html">Experience</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="writing.html">Blog</a></li>
+        <li><a href="photo.html">Photos</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <!-- <li><a href="contact.html">Contact</a></li> -->
+        <li><a href="subscribe.html">Hire me</a></li>
+    </ul>
+</nav>
+
+<!-- Main -->
+<section id="main" class="wrapper">
+    <div class="inner flex flex-3">
+        <div class="flex-item box">
+            <div class="image fit">
+                <img src="assets/img/2020Setup.jpg" alt="setup image"/>
+            </div>
+            <div class="content">
+                <h3>Own this freedom respecting computer for your personal use or work.</h3>
+                <p>
+                    <b>Unique custom rig.</b>
+                    <i>Hardware Specs</i> - Intel(R) Core(TM)2 CPU L9400, 8GB DDR3 RAM, 240GB SSD,
+                    1TB external HDD, Dell U2412M 24" (1920x1200@60Hz) display x 2 (Grade A condition), Dell external wired
+                    mouse and keyboard, detachable Logitech C270 HD WebCam and X200s Docking station.
+                    <b>All peripherals in excellent condition and tested thoroughly.</b>
+                    <i>Software Specs</i> -
+                    <u>Firmware</u> - Libreboot (a flavor of Coreboot) BIOS. Proprietary BIOS and Intel management engine (ME) have been me
+                    removed.
+                    <u>Operating System</u> - Trisquel 8.0 - A fully free GNU/Linux operating system.
+                    <u>Networking</u> - Wired Ethernet (1GBPS) and wireless to connect to internet using Tor or VPN.
+                    <u>Desktop environment</u> - Mate desktop environment and GNOME.
+                    <u>Web Browser</u> - Abrowser 78.0.2 with GNU LibreJS, HTTPS Everywhere, Onion browser button and
+                    Third-party request blocker addons.
+                    <u>Email</u> - Icedove email client with Enigmail addon.
+
+                    To know more, read my blog about it <a href="MyComputer.html">here</a>
+
+                    Interested in buying? Place an order below. (Price inclusive of shipping and taxes)
+
+                    <i>Shipping information</i> - Shipped within 5 days of payment. Worldwide shipping with UPS or DHL.
+                    Estimated
+                    delivery time depends on your location.
+
+                    <i>Customisation</i> - Software customisation available on request.
+                </p>
+                <div id="smart-button-container">
+                    <div style="text-align: center;">
+                        <div id="paypal-button-container"></div>
+                    </div>
+                </div>
+                <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD"
+                        data-sdk-integration-source="button-factory"></script>
+                <script>
+                    function initPayPalButton() {
+                        paypal.Buttons({
+                            style: {
+                                shape: 'rect',
+                                color: 'gold',
+                                layout: 'vertical',
+                                label: 'checkout',
+
+                            },
+
+                            createOrder: function (data, actions) {
+                                return actions.order.create({
+                                    purchase_units: [{
+                                        "description": "Unique rig - A headless Libreboot X200s with two 24\" external displays, detachable HD webcam and docking station.",
+                                        "amount": {
+                                            "currency_code": "USD",
+                                            "value": 1840.2,
+                                            "breakdown": {
+                                                "item_total": {"currency_code": "USD", "value": 1390},
+                                                "shipping": {"currency_code": "USD", "value": 200},
+                                                "tax_total": {"currency_code": "USD", "value": 250.2}
+                                            }
+                                        }
+                                    }]
+                                });
+                            },
+
+                            onApprove: function (data, actions) {
+                                return actions.order.capture().then(function (details) {
+                                    alert('Transaction completed by ' + details.payer.name.given_name + '!');
+                                });
+                            },
+
+                            onError: function (err) {
+                                console.log(err);
+                            }
+                        }).render('#paypal-button-container');
+                    }
+
+                    initPayPalButton();
+                </script>
+                <noscript>
+                    Send me your request to my email to place a request to buy.
+                </noscript>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Footer -->
+<footer id="footer">
+    <div class="inner">
+        <ul class="actions">
+            <li><span class="icon fa-envelope"></span>contact at girishm dot info</li>
+            <li><a href="gm.asc">GPG key</a></li>
+            <li><a href="https://xmpp.org/software/clients.html">XMPP chat</a> - girishm at member dot fsf dot org
+            </li>
+        </ul>
+    </div>
+    <noscript>
+        <h3>For those who are afraid of JavaScript</h3>
+        <div class="inner flex flex-3 row 6u 12u$(small)">
+            <ul id="altLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="workExperience.html">Experience</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="writing.html">Blog</a></li>
+                <li><a href="photo.html">Photos</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <!--<li><a href="contact.html">Contact</a></li>-->
+                <li><a href="subscribe.html">Hire me</a></li>
+            </ul>
+        </div>
+    </noscript>
+    <div class="copyright">
+        <p>Copyright &copy; 2021, 20, Girish M, <img alt="Creative Commons License" style="border-width:0"
+                                                 src="assets/img/cc.png"/>
+            <br/>
+            This work is licensed under a <a rel="license"
+                                             href="http://creativecommons.org/licenses/by/4.0/">Creative
+                Commons
+                Attribution 4.0 International License</a>. The source for this web-page can be found <a
+                    href="https://notabug.org/girishm/girishm.nfshost.com/src/master/shop.html">here</a>
+        </p>
+        &copy; Untitled. Design <a href="https://templated.co">TEMPLATED</a>. Images <a
+            href="https://unsplash.com">Unsplash</a>.
+    </div>
+    <a href="javascript.html" rel="jslicense">JavaScript license information</a>
+</footer>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/skel.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/fcf-assets/js/fcf.just-validate.min.js"></script>
+<script src="assets/fcf-assets/js/fcf.form.js"></script>
+
+</body>
+
+</html>

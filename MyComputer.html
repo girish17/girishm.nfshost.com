@@ -1,0 +1,147 @@
+<!--
+    girishm.nfshost.com is the source for personal webpage (www.girishm.info or its alias www.girishm.nfshost.com) of Girish M
+    Copyright &copy; 2020  Girish M
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+  <title>How do you build a computer like mine?</title>
+</head>
+
+<body>
+  <h2>Motivation</h2>
+  <p>To build a free (as in freedom, not free <a href="https://en.wikipedia.org/wiki/Biryani">Biryani</a>) computer
+    running completely on freedom respecting software without any prorpietary binary blobs.</p>
+  <h2>Hardware</h2>
+  <p>
+    A Libreboot X200s bought from <a
+      href="https://www.flashedtech.com/product-page/libreboot-x200s-notebook-8gb-ram-256ssd">here</a>.
+    The proprietor of Flashed Tech, Jordan Smith was generous enough to upgrade me to 512 GB SSD for a delay in order
+    processing. Jordan helped me in building the machine from bottom up, just the way I wanted it.
+    Also, shipped it through USPS to India. It took weeks to reach India and stayed at the Customs office here.
+    The Customs officer here in Bangalore was asking me to pay a bribe (indirectly) to release my laptop.
+    The Customs officer had questions such as -
+    <ul>
+      <li>"Why are you importing a laptop from US when there are plenty available here in India?", </li>
+      <li>"How do you know Jordan Smith?", </li>
+      <li>"Why are you paying a 30% custom duty + 18% tax on the already purchased product?",</li>
+      <li>"Why can't you buy a cheaper machine instead?",</li>
+      <li>"You look like an honest hardworking person/student to me, why do you pay so much customs to the Government? instead we could settle for something lesser"</li>
+    </ul>
+    It was like an interrogation (obviously, for solicitation). As if I had committed a crime under the Law of the Land,
+    just to buy a laptop from another country (which everyone is anyway doing when they buy through an Indian shop here).
+    I did somehow manage (well, I had to pretend that I was recording the conversation and then might make it public. The customs officer felt a little
+    threatened by that) to get the laptop released by not paying any bribe but, by making legal customs payment with receipt.
+    I had to go all the way to the Post office which is about 10 miles away from my place to get this all done.
+    Also, the parcel wasn't delivered to my home but I had to pick it up directly from the Post office.
+    It took about a month to reach my hands since I placed the order!
+    I have been using it for about a year now and it works just fine.
+    There are other <a href="https://ryf.fsf.org/categories/laptops">models and vendors</a> too, whom you may buy from.
+  <h3>Peripherals</h3>
+  I use two external displays (<a
+    href="https://images10.newegg.com/UploadFilesForNewegg/itemintelligence/dell/dell_u2412m_User_s_20Guide_en_us1400443493597.pdf">Dell
+    U2412M</a>) with the above machine which are connect to an <a
+    href="https://store.vikings.net/libre-friendly-hardware/ultrabase">Ultrabase X200 docking station</a>. Having a
+  docking station helps in connecting
+  more number of USB devices, provides for additional battery charging capability, has own speakers, and a SATA drive
+  bay that could be used for DVD/CD or an additional hard disk.
+  The in-built LCD display for the Libreboot has been removed completely in the setup I have. It's just the keyboard and the laptop base. Inspiration to do so -
+  <a href="https://typewriterrevolution.com/">The typewriter</a>.
+  Well, they are hard to find these days. Also, my Libreboot doesn't become a typewriter just by removing the LCD display because it still lacks the paper input.
+  The essence of the typewriter (to me) lies in its keys and tactile feedback. I felt the Libreboot X200s keyboard reminded me of that vaguely. Therefore, I made a headless (as in laptop without its own display)
+  unit for laptop,
+  but with external displays for usage. Going headless makes it less portable, but I chose aesthetics and nostalgia over portability.
+  These displays are connected to Ultrabase X200 docking station using VGA and Display port cables. One display is in
+  vertical and
+  the other in horizontal mode.
+  The vertical mode is usually used for running GUI applications and horizontal mode runs an integrated development
+  environment.
+  Other peripheral devices include a Dell KB216t USB keyboard, an USB mouse and a Logitech C270 HD camera with
+  microphone. These peripherals are additional to make the system more convenient for usage. They are mere addons except for the camera which is needed for video
+  conferencing and video recording.
+  All the peripherals work with free driver softwares and do not need any proprietary binaries to be installed.
+  </p>
+  <h2>Software</h2>
+  <p>
+  <h3>Firmware</h3>
+  Uses <a href="https://libreboot.org/">Libreboot</a> BIOS. Proprietary BIOS and <a
+    href="https://libreboot.org/faq.html#intelme">Intel management engine (ME)</a> have been me removed.
+  <h3>Operating System</h3>
+  <a href="https://trisquel.info/">Trisquel 8.0 - A fully free GNU/Linux operating system.</a>
+  <h3>Networking</h3>
+  Usage of Wired Ethernet to connect to internet using Tor as described in this <a
+    href="http://www.upubuntu.com/2012/10/how-to-configure-your-computer-to-use.html?m=1">article</a>.
+  The commands in the article work well with Trisquel 8. Any application can be made to run over Tor from command line.
+  I use wired ethernet for networking as it supports 1Gbps bandwidth (instead of wireless).
+  <h3>Desktop environment</h3>
+  I use the <a href="https://en.wikipedia.org/wiki/MATE_(software)">Mate</a> desktop environment for most of my work.
+  I also have <a href="https://www.gnome.org/">GNOME</a> which can be selected before logging in.
+  </p>
+  <h3>Web Browser</h3>
+  <a href="https://trisquel.info/en/wiki/abrowser-help">Abrowser</a> 78.0.2 with <a
+    href="https://www.gnu.org/software/librejs/">GNU LibreJS</a>,
+  <a href="https://www.eff.org/https-everywhere">HTTPS Everywhere</a>, <a
+    href="https://mybrowseraddon.com/tor-button.html">Onion browser button</a> and Third-party request blocker addons.
+  <h3>Email</h3>
+  <a href="https://directory.fsf.org/wiki/Icedove">Icedove</a> email client with <a href="https://www.enigmail.net/index.php/en/">Enigmail</a> addon.
+  <br/>
+  <br/>
+  <h3>A headless Libreboot X200s with external displays</h3>
+  <img src="assets/img/2020Setup.jpg" height="500px" width="700px" alt="2020 computer setup"></img>
+  <p>Photo created using <a href="https://wiki.gnome.org/Apps/Cheese">Cheese</a> application for GNOME</p>
+  <p>
+  <h3>Want to read more? Subscribe to my weekly writings.</h3>
+  <div id="paypal-button-container"></div>
+  <script src="https://www.paypal.com/sdk/js?client-id=AaLH7GRw2dvpLPvQFOJ_CENpAod_I9_3zJyIXM5alQP245nr6_u-WkXfLqkG3XmCUeyPbbsBQU99q7B5&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
+  <script>
+    paypal.Buttons({
+      style: {
+        shape: 'rect',
+        color: 'silver',
+        layout: 'vertical',
+        label: 'subscribe'
+      },
+      createSubscription: function(data, actions) {
+        return actions.subscription.create({
+          'plan_id': 'P-7J9812355A9780533L7AI2HQ'
+        });
+      },
+      onApprove: function(data, actions) {
+        alert(data.subscriptionID);
+      }
+    }).render('#paypal-button-container');
+  </script>
+  </p>
+  <p>
+    <a href="https://www.patreon.com/bePatron?u=49125356" data-patreon-widget-type="become-patron-button">Become a Patron!</a>
+    <script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
+  </p>
+  <p>
+    <nav class="right">
+      <a href="index.html"><img src="assets/img/home.jpg"></a>
+    </nav>
+  </p>
+  <p>Copyright &copy; 2021, 20, Girish M <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img
+        alt="Creative Commons License" style="border-width:0" src="assets/img/cc.png" /></a><br />This work is licensed
+    under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons
+      Attribution 4.0 International License</a>. The source for this web-page can be found <a
+      href="https://notabug.org/girishm/girishm.nfshost.com/src/master/assets/writings/MyComputer.html">here</a>
+  </p>
+</body>
+
+</html>
