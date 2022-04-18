@@ -387,40 +387,42 @@
 </div>
 <div style="clear:both; line-height:0; width:0; height:0; margin:0; padding:0;"> </div>
 <footer>
-    <p>
-    <h3>Want me to write more?</h3>
-    <div id="paypal-button-container"></div>
-    <script src="https://www.paypal.com/sdk/js?client-id=AaLH7GRw2dvpLPvQFOJ_CENpAod_I9_3zJyIXM5alQP245nr6_u-WkXfLqkG3XmCUeyPbbsBQU99q7B5&vault=true&intent=subscription"
-            data-sdk-integration-source="button-factory"></script>
-    <script>
-        paypal.Buttons({
-            style: {
-                shape: 'rect',
-                color: 'silver',
-                layout: 'vertical',
-                label: 'subscribe'
-            },
-            createSubscription: function (data, actions) {
-                return actions.subscription.create({
-                    'plan_id': 'P-7J9812355A9780533L7AI2HQ'
-                });
-            },
-            onApprove: function (data, actions) {
-                alert(data.subscriptionID);
-            }
-        }).render('#paypal-button-container');
-    </script>
-    </p>
-    <p>
-        <a href="https://www.patreon.com/bePatron?u=49125356" data-patreon-widget-type="become-patron-button">Become a
-            Patron!</a>
-        <script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
-    </p>
+<!--    <p>-->
+<!--    <h3>Want me to write more?</h3>-->
+<!--    <div id="paypal-button-container"></div>-->
+<!--    <script src="https://www.paypal.com/sdk/js?client-id=AaLH7GRw2dvpLPvQFOJ_CENpAod_I9_3zJyIXM5alQP245nr6_u-WkXfLqkG3XmCUeyPbbsBQU99q7B5&vault=true&intent=subscription"-->
+<!--            data-sdk-integration-source="button-factory"></script>-->
+<!--    <script>-->
+<!--        paypal.Buttons({-->
+<!--            style: {-->
+<!--                shape: 'rect',-->
+<!--                color: 'silver',-->
+<!--                layout: 'vertical',-->
+<!--                label: 'subscribe'-->
+<!--            },-->
+<!--            createSubscription: function (data, actions) {-->
+<!--                return actions.subscription.create({-->
+<!--                    'plan_id': 'P-7J9812355A9780533L7AI2HQ'-->
+<!--                });-->
+<!--            },-->
+<!--            onApprove: function (data, actions) {-->
+<!--                alert(data.subscriptionID);-->
+<!--            }-->
+<!--        }).render('#paypal-button-container');-->
+<!--    </script>-->
+<!--    </p>-->
+<!--    <p>-->
+<!--        <a href="https://www.patreon.com/bePatron?u=49125356" data-patreon-widget-type="become-patron-button">Become a-->
+<!--            Patron!</a>-->
+<!--        <script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>-->
+<!--    </p>-->
     <br>
     <p>
-        <nav class="right">
-            <a href="index.html"><img src="assets/img/home.jpg"></a>
-        </nav>
+    <nav class="right">
+        <a href="MyComputer.html"><img src="assets/img/previous.jpg" alt="Previous"></a>
+        <a href="index.html"><img src="assets/img/home.jpg"></a>
+        <a href="AffairWithCPP.html"><img src="assets/img/next.jpg" alt="Next"></a>
+    </nav>
     </p>
     <p>Copyright &copy; 2021, Girish M <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img
             alt="Creative Commons License" style="border-width:0" src="assets/img/cc.png"/></a><br/>This work is licensed
