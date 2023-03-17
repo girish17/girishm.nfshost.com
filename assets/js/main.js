@@ -60,7 +60,6 @@
 					side: 'right'
 				});
 
-
 		// Check local storage for the "darkTheme" key
 		if (localStorage.getItem("darkTheme") === "true") {
 			$('#dark-theme-checkbox').prop('checked', true);
