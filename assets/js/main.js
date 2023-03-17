@@ -60,12 +60,23 @@
 					side: 'right'
 				});
 
+		// Check local storage for the "darkTheme" key
+		if (localStorage.getItem("darkTheme") === "true") {
+			$('#dark-theme-checkbox').prop('checked', true);
+			$('body').addClass('dark');
+			$('#header').addClass('dark');
+			$('#footer').addClass('dark');
+			$('#menu').addClass('dark');
+		}
+
 	    $('#dark-theme-checkbox').change(function() {
-		$('.dark-theme-checkbox').toggleClass('checked');
-		$('body').toggleClass('dark');
-		$('#header').toggleClass('dark');
-		$('#footer').toggleClass('dark');
-		$('#menu').toggleClass('dark');
+			$('.dark-theme-checkbox').toggleClass('checked');
+			$('body').toggleClass('dark');
+			$('#header').toggleClass('dark');
+			$('#footer').toggleClass('dark');
+			$('#menu').toggleClass('dark');
+			// Save the current state of the dark theme to local storage
+			localStorage.setItem("darkTheme", $('#dark-theme-checkbox').prop('checked'));
 	    });
 	});
 
