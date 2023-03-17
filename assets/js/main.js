@@ -63,6 +63,7 @@
 		// Check local storage for the "darkTheme" key
 		if (localStorage.getItem("darkTheme") === "true") {
 			$('#dark-theme-checkbox').prop('checked', true);
+
 			// Toggle label text
 			let label = $('#dark-theme-checkbox-label');
 			if ($(this).prop('checked')) {
@@ -70,6 +71,7 @@
 			} else {
 				label.text('Dark Mode');
 			}
+
 			$('body').addClass('dark');
 			$('#header').addClass('dark');
 			$('#footer').addClass('dark');
@@ -78,6 +80,7 @@
 
 	    $('#dark-theme-checkbox').change(function() {
 			$('.dark-theme-checkbox').toggleClass('checked');
+
 			// Toggle label text
 			let label = $('#dark-theme-checkbox-label');
 			if ($(this).prop('checked')) {
@@ -85,6 +88,7 @@
 			} else {
 				label.text('Dark Mode');
 			}
+
 			$('body').toggleClass('dark');
 			$('#header').toggleClass('dark');
 			$('#footer').toggleClass('dark');
