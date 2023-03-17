@@ -60,6 +60,13 @@
 					side: 'right'
 				});
 
+	    $('#dark-theme-checkbox').change(function() {
+		$('.dark-theme-checkbox').toggleClass('checked');
+		$('body').toggleClass('dark');
+		$('#header').toggleClass('dark');
+		$('#footer').toggleClass('dark');
+		$('#menu').toggleClass('dark');
+	    });
 	});
 
 })(jQuery);
