@@ -98,4 +98,7 @@
 	    });
 	});
 
+	$("#banner").click(function () {
+		window.location.href = 'MyComputer.html';
+	});
 })(jQuery);
